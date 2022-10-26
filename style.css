@@ -107,10 +107,8 @@ body {
     color: var(--clr-accent);
 }
 
-@media (max-width: 80em) {
-    main {
-        padding-inline: 2rem;
-    }
+main {
+    padding-inline: 2rem;
 }
 
 .header {
@@ -120,13 +118,13 @@ body {
     padding-block: 3rem;
     max-width: var(--max-width);
     margin-inline: auto;
+    padding-inline: 2rem;
 }
 
 @media (max-width: 80em) {
     .header {
         flex-direction: column;
         gap: 3rem;
-        padding-inline: 2rem;
     }
 }
 
